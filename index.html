@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unwind Through Gaming</title>
+  <link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	
+
+</head>
+<body>
+  <header>
+	  <div class="logo">
+ 	  <a href="index.html">Ris</a> </div>
+    <nav>
+      <a href="about.html">ABOUT</a>
+      <a href="index.html">HOBBY</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+
+	
+	<div class="stars"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+	
+  <main>
+    <section class="quote-section">
+      <div class="quote-box">
+        <p>"I enjoy gaming as a hobby."<br><span>-RIS</span></p>
+      </div>
+      
+    </section>
+
+    <h2 class="games-title">GAMES I PLAY</h2>
+	  
+		
+    <section class="game-buttons">
+      <a href="minecraft.html" class="game minecraft">MINECRAFT</a>
+		
+		
+		
+      <a href="nfs.html" class="game nfs">NEED FOR SPEED™ HEAT</a>
+		
+		
+		
+      <a href="rhythm+.html" class="game rhythm">RHYTHM PLUS</a>
+		
+		
+		
+      <a href="starwars.html" class="game fallenorder">STAR WARS JEDI: FALLEN ORDER</a>
+		
+		
+		
+      <a href="asc.html" class="game unity">ASSASSIN'S CREED UNITY</a>
+			
+		
+    </section>
+  </main>
+	
+	
+  <footer>
+    2025 © Rissaawaa
+  </footer>
+
+	
+	<script>
+  document.querySelectorAll('.game').forEach(button => {
+    button.addEventListener('mouseenter', () => {
+      button.classList.add('hover-animate');
+    });
+
+    button.addEventListener('mouseleave', () => {
+      // Remove the class after the animation ends
+      setTimeout(() => {
+        button.classList.remove('hover-animate');
+      }, 300); // Duration of animation (ms)
+    });
+  });
+</script>
+	
+	
+
+
+</body>
+</html>
